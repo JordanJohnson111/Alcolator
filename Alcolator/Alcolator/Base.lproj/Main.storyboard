@@ -159,10 +159,10 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="lUn-0O-HVe"/>
-                                <exclude reference="hGi-sy-Qua"/>
                                 <exclude reference="45h-j4-gXR"/>
                                 <exclude reference="8JF-FJ-Y3c"/>
+                                <exclude reference="hGi-sy-Qua"/>
+                                <exclude reference="lUn-0O-HVe"/>
                             </mask>
                         </variation>
                     </view>
