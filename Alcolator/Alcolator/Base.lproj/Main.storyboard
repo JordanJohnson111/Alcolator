@@ -32,8 +32,8 @@
                                     <action selector="sliderValueDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="MKa-46-Ge1"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wj8-2n-gGa">
-                                <rect key="frame" x="-5" y="239" width="120" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wj8-2n-gGa">
+                                <rect key="frame" x="240" y="239" width="120" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -58,6 +58,7 @@
                             <constraint firstItem="VCw-64-vDC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EXs-5O-7Tx"/>
                             <constraint firstItem="N9O-RY-Tzg" firstAttribute="centerX" secondItem="8ag-af-Ljt" secondAttribute="centerX" id="GSt-ar-uwm"/>
                             <constraint firstAttribute="leadingMargin" secondItem="8ag-af-Ljt" secondAttribute="leading" id="JxT-Mv-eat"/>
+                            <constraint firstItem="wj8-2n-gGa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PYb-a3-oFg"/>
                             <constraint firstItem="VCw-64-vDC" firstAttribute="top" secondItem="N9O-RY-Tzg" secondAttribute="bottom" constant="8" id="VoE-8U-hD0"/>
                             <constraint firstItem="N9O-RY-Tzg" firstAttribute="width" secondItem="8ag-af-Ljt" secondAttribute="width" id="XzL-8u-HTp"/>
                             <constraint firstItem="wj8-2n-gGa" firstAttribute="width" secondItem="VCw-64-vDC" secondAttribute="width" id="Zg5-WZ-MC0"/>

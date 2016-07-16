@@ -37,13 +37,17 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
-    
+    [self doCalculation];
     
     
     //self.navigationItem.title = @"Wine (%d glasses)", sender.value;
 }
 
 - (IBAction)buttonPressed:(id)sender {
+    [self doCalculation];
+}
+
+- (void)doCalculation {
     [self.beerPercentTextField resignFirstResponder];
     // first, calculate how much alcohol is in all those beers...
     int numberOfBeers = self.beerCountSlider.value;
