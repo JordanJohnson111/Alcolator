@@ -81,6 +81,7 @@
                             <outletCollection property="gestureRecognizers" destination="Jpd-R0-tIu" appends="YES" id="18F-tj-B6H"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" title="Wine" id="pyi-rW-O9h"/>
                     <connections>
                         <outlet property="beerCountSlider" destination="N9O-RY-Tzg" id="Ljj-NP-ycR"/>
                         <outlet property="beerPercentTextField" destination="8ag-af-Ljt" id="ktH-L0-54m"/>
@@ -132,8 +133,8 @@
                                     <action selector="sliderValueDidChange:" destination="5iE-Zs-IaJ" eventType="valueChanged" id="B3z-rw-moO"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob0-PS-AUS">
-                                <rect key="frame" x="240" y="200" width="120" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ob0-PS-AUS">
+                                <rect key="frame" x="240" y="239" width="120" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -156,6 +157,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Ob0-PS-AUS" secondAttribute="trailing" constant="15" id="lUn-0O-HVe"/>
                             <constraint firstItem="Ob0-PS-AUS" firstAttribute="width" secondItem="5e9-tp-pmi" secondAttribute="width" id="pGu-vJ-OYi"/>
                             <constraint firstItem="5e9-tp-pmi" firstAttribute="centerX" secondItem="tGV-Xo-h9Q" secondAttribute="centerX" id="ti4-Qf-5oW"/>
+                            <constraint firstItem="Ob0-PS-AUS" firstAttribute="leading" secondItem="5e9-tp-pmi" secondAttribute="leading" id="wjc-aP-QDy"/>
                             <constraint firstItem="tGV-Xo-h9Q" firstAttribute="top" secondItem="x2A-3M-t05" secondAttribute="bottom" constant="8" id="xDD-qU-R6l"/>
                         </constraints>
                         <variation key="default">
@@ -167,6 +169,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="Whiskey" id="TzX-kH-4qz"/>
                     <connections>
                         <outlet property="beerCountSlider" destination="tGV-Xo-h9Q" id="dno-mJ-Prp"/>
                         <outlet property="beerPercentTextField" destination="x2A-3M-t05" id="ZuJ-ht-WZZ"/>
@@ -218,7 +221,7 @@
                             <constraint firstItem="Kpj-1f-DEj" firstAttribute="top" secondItem="G6x-kU-73r" secondAttribute="bottom" constant="20" id="dMG-NI-UiQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="LFM-Ep-YaN"/>
+                    <navigationItem key="navigationItem" title="Select Alcolator" id="LFM-Ep-YaN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bpl-KV-2in" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
